@@ -1,0 +1,3 @@
+[submodule "openremote"]
+	path = openremote
+	url = https://github.com/Raqbit/openremote.git
