@@ -1,0 +1,21 @@
+import digitalio
+import board
+
+
+DEFAULT_RADIO_FREQ_MHZ = 915.0
+DEFAULT_CS = digitalio.DigitalInOut(board.CE1)
+DEFAULT_RESET = digitalio.DigitalInOut(board.D25)
+DEFAULT_MOSI = board.MOSI
+DEFAULT_MISO = board.MISO
+DEFAULT_CLOCK = board.SCK
+DEFAULT_BAUDRATE = 1000000
+
+DEFAULT_RGB_1 = board.D26
+DEFAULT_RGB_2 = board.D13
+DEFAULT_RGB_3 = board.D6
+
+DEFAULT_TCP_ADDR = "127.0.0.1"
+DEFAULT_TCP_PORT = 1337
+
+
+DEFAULT_BUFFER_SIZE = 1024

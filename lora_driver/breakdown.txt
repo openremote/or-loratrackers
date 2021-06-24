@@ -1,0 +1,14 @@
+
+recvfromAck expects:
+0           1                                           2               
+incoming -> header (dest, source, hops, id, flags)
+            data [254]                              ->  header (msgType)
+                                                        (if msgType == 0)   -> data(ownData)
+
+doArp will send:
+0
+                (MeshRouteDiscoveryMessage)
+incoming    ->  header (msgType)
+                destlen
+                dest
+                route
