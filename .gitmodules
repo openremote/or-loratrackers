@@ -1,6 +1,6 @@
 [submodule "openremote"]
 	path = openremote
 	url = https://github.com/Raqbit/openremote.git
-[submodule "uzlib"]
+[submodule "tracker_firmware/lib/uzlib"]
 	path = tracker_firmware/lib/uzlib
 	url = https://github.com/pfalcon/uzlib
